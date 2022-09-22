@@ -1,0 +1,5 @@
+---
+- name: get into path /tmp/test2
+  ansible.builtin.copy:
+    src: /files/helloWorld.txt
+    dest: /tmp/test1
